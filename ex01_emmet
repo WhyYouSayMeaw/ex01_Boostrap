@@ -1,0 +1,69 @@
+<html>
+<head>
+
+</head>
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+////div>ul>li.item$*5
+<div>
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+////div>ul>li.item@10*5{item$}*5
+    <div>
+        <ul>
+            <li class="item@10">item1</li>
+            <li class="item@10">item2</li>
+            <li class="item@10">item3</li>
+            <li class="item@10">item4</li>
+            <li class="item@10">item5</li>
+        </ul>
+    </div>
+</div>
+</html>
